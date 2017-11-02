@@ -1,0 +1,11 @@
+2017-09-06T14:53:42.023 : Student 0008 CREATED
+2017-09-06T14:54:03.086 : Student 0008 REMOVED
+2017-09-13T19:12:44.625 : createStudent: ID: 0001 |Name: John Doob |Cohort: Java
+2017-09-13T19:13:47.276 : createStudent: ID: 12345 |Name: Sally Doob |Cohort: .NET
+2017-09-13T19:13:54.538 : removeStudent: 12345
+2017-09-13T19:17:13.967 : removeStudent: 12345
+2017-09-13T19:17:50.120 : createStudent: ID: 0001 |Name: John Doob |Cohort: Java
+2017-09-13T19:19:12.957 : removeStudent: 0001
+2017-09-13T19:19:29.717 : createStudent: ID: 0001 |Name: Jane Doob |Cohort: Java
+2017-09-13T19:19:57.828 : createStudent: ID: 0002 |Name: John Doob |Cohort: .NET
+2017-09-13T19:20:39.325 : removeStudent: 0002

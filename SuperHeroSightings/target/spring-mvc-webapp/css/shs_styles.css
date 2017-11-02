@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+    background-color: rgba(40, 40, 40, 1);
+    color: rgba(255, 255, 255, .95);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+}
+
+ul.nav>li.active>a {
+    background-color: rgba(40, 40, 40, 1);
+    color: rgb(255, 255, 255);
+}
+
+ul.nav>li.active>a:hover {
+    background-color: rgba(40, 40, 40, 1);
+    color: rgb(255, 255, 255);
+}
+
+ul.nav>li>a:hover {
+    background-color: rgba(40, 40, 40, 1);
+    color: rgb(255, 255, 255);
+}
+
+a {
+    cursor: pointer;
+    color: rgba(255, 165, 0, .9);
+}
+
+th {
+    background-color: rgb(36, 36, 86);
+}
+
+.scroll-table {
+    height: 30%;
+    overflow: scroll;
+}
+
+select, option, textarea, input[type="text"], input[type="number"],
+input[type="date"], input[readonly]{
+    background-color:rgb(62, 62, 62) !important;
+    color: white !important;
+}
+
+/*select, option {
+    background-color:rgb(62, 62, 62);
+}*/
+
+#map {
+    margin: 20px 0px;
+    height: 350px;
+    width: 100%;
+}
+
+.dark-button { 
+  color: #ffffff; 
+  background-color: #242456; 
+  border-color: #E0E0E0; 
+} 
+ 
+.dark-button:hover, 
+.dark-button:focus, 
+.dark-button:active, 
+.dark-button.active, 
+.open .dropdown-toggle.dark-button { 
+  color: #ffffff; 
+  background-color: #4B2F70; 
+  border-color: #E0E0E0; 
+} 
+ 
+.dark-button:active, 
+.dark-button.active, 
+.open .dropdown-toggle.dark-button { 
+  background-image: none; 
+} 
+ 
+.dark-button.disabled, 
+.dark-button[disabled], 
+fieldset[disabled] .dark-button, 
+.dark-button.disabled:hover, 
+.dark-button[disabled]:hover, 
+fieldset[disabled] .dark-button:hover, 
+.dark-button.disabled:focus, 
+.dark-button[disabled]:focus, 
+fieldset[disabled] .dark-button:focus, 
+.dark-button.disabled:active, 
+.dark-button[disabled]:active, 
+fieldset[disabled] .dark-button:active, 
+.dark-button.disabled.active, 
+.dark-button[disabled].active, 
+fieldset[disabled] .dark-button.active { 
+  background-color: #242456; 
+  border-color: #E0E0E0; 
+} 
+ 
+.dark-button .badge { 
+  color: #242456; 
+  background-color: #ffffff; 
+}

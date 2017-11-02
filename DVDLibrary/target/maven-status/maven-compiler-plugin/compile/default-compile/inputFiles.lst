@@ -1,0 +1,17 @@
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryPersistenceException.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/service/DVDLibraryServiceLayerImpl.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/dto/DVD.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryAuditDao.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryDaoFileImpl.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryDao.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/ui/DVDLibraryView.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryAuditDaoImpl.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/ui/UserIO.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryDaoStubImpl.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/ui/UserIOConsoleImpl.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/advice/LoggingAdvice.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/controller/DVDLibraryController.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/service/DVDLibraryDataValidationException.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/service/DVDLibraryDuplicateTitleException.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/App.java
+/Users/jared/Desktop/bitbucket/jared-beamer-individual-work/DVDLibrary/src/main/java/com/sg/dvdlibrary/service/DVDLibraryServiceLayer.java

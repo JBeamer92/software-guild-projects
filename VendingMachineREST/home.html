@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vending Machine</title>
+        <link rel='stylesheet' href='css/bootstrap.css'>
+        <style>
+            .item-div {
+                border: 1px solid black;
+                height: 125px;
+                margin-bottom: 25px;
+            }
+            .right-div-element {
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <h1 class='text-center'>Vending Machine</h1>
+            <hr>
+            <ul id='errorMsgs' class='list-group'></ul>
+            <div class='row'>
+                <div class='col-md-8' id="divLeft">
+                    <!-- load ALL THE ITEMS!!! -->
+                </div>
+                <div class='col-md-4' id="divRight">
+                    <div class='inputDiv'>
+                        <h3 class='text-center'>Total $ In</h3>
+                        <div class='col-md-6 col-md-offset-3'>
+                            <input id='total-box' type='number' value='0.00' disabled>
+                        </div>
+                        <div class='row'>
+                            <button id='add-dollar-btn' class='col-md-4 col-md-offset-1 right-div-element btn btn-default'>Add Dollar</button>
+                            <button id='add-quarter-btn' class='col-md-offset-2 col-md-4 right-div-element btn btn-default'>Add Quarter</button>
+                        </div>
+                        <div class='row'>
+                            <button id='add-dime-btn' class='col-md-4 col-md-offset-1 right-div-element btn btn-default'>Add Dime</button>
+                            <button id='add-nickel-btn' class='col-md-offset-2 col-md-4 right-div-element btn btn-default'>Add Nickel</button>
+                        </div>
+                    </div>
+                    <div class='outputDiv'>
+                        <h3 class='text-center'>Messages</h3>
+                        <div class='col-md-8 col-md-offset-2'>
+                            <input id='message-box' type='text' style='width:100%' disabled>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-8 col-md-offset-2'>
+                                <div class='col-md-4 right-div-element'>
+                                    <strong>Item:</strong>
+                                </div>
+                                <div class='col-md-8 right-div-element'>
+                                    <input type='number' id='item-num-box' style='width:100%' disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-6 col-md-offset-3 right-div-element'>
+                                <button style='width:100%' id='make-purchase-btn' class='btn btn-default'>Make Purchase</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='changeDiv'>
+                        <h3 class='text-center'>Change</h3>
+                        <div class='col-md-8 col-md-offset-2'>
+                            <input id='change-box' type='text' style='width:100%' disabled>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-6 col-md-offset-3 right-div-element'>
+                                <button style='width:100%' id='change-return-btn' class='btn btn-default'>Change Return</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src='js/jquery-2.2.4.min.js'></script>
+        <script src='js/bootstrap.js'></script>
+        <script src='js/home.js'></script>
+    </body>
+</html>
